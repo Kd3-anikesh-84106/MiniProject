@@ -125,12 +125,66 @@ h1{
     #msg{
         color: #ffffc7;
         font-size: 8vmin;
+        
     }
 
     .msg-container{
-        height: 30vmin;
+        height: 80vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
     }
 
     .hide{
         display: none;
     }
+
+    #player1{
+      align-items: center;
+      
+      background-image: radial-gradient(100% 100% at 100% 0,olive 0, orange 100%);
+      border: 0;
+      border-radius: 6px;
+      box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      display: inline-flex;
+      
+      height: 48px;
+      justify-content: center;
+    
+      padding-left: 16px;
+      padding-right: 16px;
+      position: absolute;
+      right: 0;
+      top: 0;
+     
+    }
+
+   #player2{
+      align-items: center;
+  
+      background-image: radial-gradient(100% 100% at 100% 0,olive 0, orange 100%);
+      border: 10;
+      border-radius: 6px;
+      box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+      box-sizing: border-box;
+      color:black;
+      cursor: pointer;
+      display: inline-flex;
+      
+      height: 48px;
+      justify-content: center;
+      
+      
+      padding-left: 16px;
+      padding-right: 16px;
+      position: absolute;
+      right: 0%;
+      bottom: 85%;
+      
+    }
+    
